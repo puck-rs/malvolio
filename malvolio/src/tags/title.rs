@@ -13,7 +13,7 @@ use super::head::head_node::HeadNode;
 #[derive(Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <title> tag.
+/// The `<title>` tag.
 ///
 /// See the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title) for more
 /// info.

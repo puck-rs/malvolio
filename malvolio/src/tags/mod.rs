@@ -4,38 +4,38 @@ A copy of this license can be found in the `licenses` directory at the root of t
 */
 /// Links
 pub mod a;
-/// The <body> tag.
+/// The `<body>` tag.
 pub mod body;
-/// The <br> (new line) tag.
+/// The `<br>` (new line) tag.
 pub mod br;
-/// The <div> tag.
+/// The `<div>` tag.
 pub mod div;
-/// The <form> tag.
+/// The `<form>` tag.
 pub mod form;
-/// The <head> tag.
+/// The `<head>` tag.
 pub mod head;
 /// The heading tags (h1 to h6).
 pub mod headings;
-/// The <html> tag.
+/// The `<html>` tag.
 pub mod html;
-/// The <img> tag.
+/// The `<img>` tag.
 pub mod img;
-/// The <input> tag.
+/// The `<input>` tag.
 pub mod input;
-/// The <label> tag.
+/// The `<label>` tag.
 pub mod label;
-/// The <meta> tag.
+/// The `<meta>` tag.
 pub mod meta;
-/// The <noscript> tag.
+/// The `<noscript>` tag.
 /// rendering.
 pub mod noscript;
-/// The <option> tag.
+/// The `<option>` tag.
 pub mod option;
-/// The <p> (paragraph) tag.
+/// The `<p>` (paragraph) tag.
 pub mod p;
-/// The <select> tag.
+/// The `<select>` tag.
 pub mod select;
-/// The <style> tag.
+/// The `<style>` tag.
 pub mod style;
-/// The <title> tag.
+/// The `<title>` tag.
 pub mod title;

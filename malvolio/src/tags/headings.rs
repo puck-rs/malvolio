@@ -17,7 +17,7 @@ use super::body::body_node::BodyNode;
 #[derive(Default, Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <h1> tag.
+/// The `<h1>` tag.
 ///
 /// See
 /// [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
@@ -39,7 +39,7 @@ heading_display!(H1);
 #[derive(Default, Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <h2> tag.
+/// The `<h2>` tag.
 ///
 /// See
 /// [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
@@ -61,7 +61,7 @@ heading_display!(H2);
 #[derive(Default, Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <h3> tag.
+/// The `<h3>` tag.
 ///
 /// See
 /// [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
@@ -83,7 +83,7 @@ heading_display!(H3);
 #[derive(Default, Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <h4> tag.
+/// The `<h4>` tag.
 ///
 /// See
 /// [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
@@ -105,7 +105,7 @@ heading_display!(H4);
 #[derive(Default, Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <h5> tag.
+/// The `<h5>` tag.
 ///
 /// See
 /// [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
@@ -127,7 +127,7 @@ heading_display!(H5);
 #[derive(Default, Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <h6> tag.
+/// The `<h6>` tag.
 ///
 /// See
 /// [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)

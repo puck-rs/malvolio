@@ -20,7 +20,7 @@ use super::{body::body_node::BodyNode, input::Name, option::SelectOption};
 #[derivative(Default(new = "true"))]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The `select` tag.
+/// The `<select>` tag.
 ///
 /// See [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) for
 /// further information.
@@ -80,7 +80,7 @@ pub fn select() -> Select {
 }
 
 impl Select {
-    /// Add a number of children to a <select> tag.
+    /// Add a number of children to a `<select>` tag.
     pub fn children<I, C>(mut self, children: I) -> Self
     where
         C: Into<SelectOption>,
@@ -91,7 +91,7 @@ impl Select {
         self
     }
 
-    /// Add a single child to a <select> tag.
+    /// Add a single child to a `<select>` tag.
     pub fn child<C>(mut self, child: C) -> Self
     where
         C: Into<SelectOption>,

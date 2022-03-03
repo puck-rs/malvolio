@@ -15,7 +15,7 @@ pub mod head_node;
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
 #[must_use]
-/// The <head> tag.
+/// The `<head>` tag.
 pub struct Head {
     children: Vec<HeadNode>,
 }
@@ -44,7 +44,7 @@ pub fn head() -> Head {
 }
 
 impl Head {
-    /// Add a number of children to this <head> tag from an iterator.
+    /// Add a number of children to this `<head>` tag from an iterator.
     pub fn children<I, C>(mut self, children: I) -> Self
     where
         C: Into<HeadNode>,
@@ -54,7 +54,7 @@ impl Head {
             .extend(children.into_iter().map(Into::into).collect::<Vec<_>>());
         self
     }
-    /// Add a single child to this <head> tag.
+    /// Add a single child to this `<head>` tag.
     pub fn child<C>(mut self, child: C) -> Self
     where
         C: Into<HeadNode>,

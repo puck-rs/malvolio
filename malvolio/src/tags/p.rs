@@ -17,7 +17,7 @@ use crate::{
     utils::write_attributes,
 };
 
-/// The <p> tag.
+/// The `<p>` tag.
 ///
 /// See the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) for more
 /// info.

@@ -60,13 +60,13 @@ impl Html {
         Self::default()
     }
 
-    /// Attach a <head> tag to this `Html` instance.
+    /// Attach a `<head>` tag to this `Html` instance.
     pub fn head(mut self, head: Head) -> Self {
         self.head = head;
         self
     }
 
-    /// Attach a new <body> tag to this `Html` instance.
+    /// Attach a new `<body>` tag to this `Html` instance.
     pub fn body(mut self, body: Body) -> Self {
         self.body = body;
         self

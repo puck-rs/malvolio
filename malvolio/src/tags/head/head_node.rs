@@ -11,7 +11,7 @@ use crate::{
 utility_enum!(
     #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
     #[allow(missing_docs)]
-    /// A node which can be attached to the <head> tag.
+    /// A node which can be attached to the `<head>` tag.
     pub enum HeadNode {
         Title(Title),
         Meta(Meta),

@@ -18,7 +18,7 @@ use super::input::{Name, Value};
 #[derivative(Default(new = "true"))]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The `option` tag.
+/// The `<option>` tag.
 ///
 /// See [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option) for
 /// further information.
@@ -133,7 +133,7 @@ impl Display for SelectOption {
 }
 
 utility_enum!(
-    /// An attribute for the <select> tag.
+    /// An attribute for the `<select>` tag.
     #[allow(missing_docs)]
     pub enum SelectOptionAttr {
         Value(Value),

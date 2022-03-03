@@ -6,7 +6,7 @@ use crate::into_grouping_union;
 #[derive(Debug, Clone)]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <noscript> tag. The contents of this tag will be shown to people whose browsers don't
+/// The `<noscript>` tag. The contents of this tag will be shown to people whose browsers don't
 /// support Javascript, or who don't have Javascript enabled.
 ///
 /// See [MDN's page on this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript) for
@@ -52,7 +52,7 @@ pub fn noscript(text: impl Into<Cow<'static, str>>) -> NoScript {
 }
 
 impl NoScript {
-    /// Construct a new <noscript> tag.
+    /// Construct a new `<noscript>` tag.
     pub fn new<T>(text: T) -> Self
     where
         T: Into<Cow<'static, str>>,

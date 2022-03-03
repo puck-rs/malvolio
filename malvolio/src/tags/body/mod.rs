@@ -16,7 +16,7 @@ pub mod body_node;
 #[derivative(Default(new = "true"))]
 #[cfg_attr(feature = "pub_fields", derive(FieldsAccessibleVariant))]
 #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-/// The <body> tag.
+/// The `<body>` tag.
 #[must_use]
 pub struct Body {
     children: Vec<BodyNode>,

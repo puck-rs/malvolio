@@ -24,7 +24,7 @@ use crate::{
 utility_enum!(
     #[allow(missing_docs)]
     #[cfg_attr(feature = "fuzz", derive(serde::Serialize, serde::Deserialize))]
-    /// A node which can be mounted to the <body> tag (or any of its children).
+    /// A node which can be mounted to the `<body>` tag (or any of its children).
     pub enum BodyNode {
         H1(H1),
         H2(H2),

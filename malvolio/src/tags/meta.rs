@@ -137,7 +137,7 @@ into_grouping_union!(MetaName, MetaAttr);
 
 #[derive(Debug, Clone)]
 
-/// The "content" attribute for a <meta> tag.
+/// The "content" attribute for a `<meta>` tag.
 pub struct Content(Cow<'static, str>);
 
 impl Content {

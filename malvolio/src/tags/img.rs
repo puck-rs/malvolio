@@ -64,7 +64,7 @@ impl Display for Img {
 }
 
 impl Img {
-    /// Attach an attribute to the <img> tag in question.
+    /// Attach an attribute to the `<img>` tag in question.
     pub fn attribute<A>(mut self, attribute: A) -> Self
     where
         A: Into<ImgAttr>,
